@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/cnj_mandados_prisao-mcp",
+  "title": "Conselho Nacional de Justiça: Mandados de Prisão",
+  "description": "Conselho Nacional de Justiça: Mandados de Prisão, official-source lookup. Platform-hosted, pay per q",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/cnj_mandados_prisao-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_cnj_mandados_prisao"
+    }
+  ]
+}
